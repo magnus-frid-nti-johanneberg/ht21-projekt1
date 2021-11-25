@@ -3,3 +3,9 @@ Denna mapp skall innehålla dina skisser, dokumention etc.
 Ide-skapandet: 
 Jag tar inspiration från resturangsidor som "the barn" och "deg". 
 Jag kollar även på pinterest för att hitta ideer. 
+
+The barn - länk: https://thebarn.se/
+Deg - länk: https://www.deggoteborg.se/
+
+Processen: 
+Jag kommer först skapa strukturen i html och css innan jag börjar lägga in färger, bilder och text. 
