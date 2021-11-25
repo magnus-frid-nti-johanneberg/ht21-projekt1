@@ -10,3 +10,21 @@ min-width: 100vh;
 margin: auto; 
 
 }
+
+#page_container{
+min-height: 100vh; 
+min-width: 100vh; 
+background-color:slategray;
+}
+
+header{
+    border: solid 1px black;
+}
+
+#big_picture_layer{
+    border: solid 1px black;
+}
+
+
+
+
