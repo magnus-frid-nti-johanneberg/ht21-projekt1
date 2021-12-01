@@ -4,6 +4,76 @@ body{
 }
 
 #wrapper{
+    min-width: 100vw;
+    min-height: 100vh;
+    grid-template-areas: 
+    "hd"
+    "nv"
+    "mn" 
+    ;
+}
+
+#head{
+    grid-area: hd;
+    border: solid 1px black;
+}
+
+nav{
+    grid-area: nv;
+    border: solid 1px black;
+}
+
+main{ 
+    grid-area: mn;
+    border: solid 1px black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapp{
 border: solid 1px black; 
 min-height: 100vh; 
 min-width: 100vh; 
@@ -17,44 +87,47 @@ min-width: 100vh;
 background-color:slategray;
 }
 
+
 header{
     border: solid 1px black;
+    height: 5rem;
+
 }
 
 #big_picture_layer{
     border: solid 1px black;
+    height: 5rem;
 }
-
-nav{
-    border: solid 1px black; 
-}
-
-Nedre 
 
 #sec1-1{
-    border: solid 1px black; 
+    border: solid 1px black;
+    height: 5rem;
 }
-
 
 #sec1-2{
     border: solid 1px black; 
+    height: 5rem; 
 }
 
 #sec2-1{
     border: solid 1px black; 
+    height: 5rem;
 }
 
 #sec-img{
     border: solid 1px black; 
+    height: 5rem;
 }
 
 #sec2-3{
     border: solid 1px black; 
+    height: 5rem;
     
 }
 
 footer{
     border: solid 1px black;
+    height: 5rem;
 }
 
 
