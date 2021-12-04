@@ -11,7 +11,7 @@ body{
     "hd"
     "nv"
     "mn";
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 0.7fr 2fr;
   
 }
 
@@ -29,20 +29,47 @@ nav{
 main{ 
     grid-area: mn;
     border: solid 1px black; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
 }
 
+header{
+    border: solid 1px black;
+    height: 5.5rem;
 
+}
 
+#sec1{
+    display: grid;
+    border: solid 1px black; 
+    height: 50%; 
+    grid-template-areas: 
+    "art11 art12 art13" ;
+   
+}
 
+#sec2{
+    display: grid; 
+    border: solid 1px black; 
+    height: 50%;
 
+}
 
+#art11{
+    grid-area: art11;
+    border: solid 1px black; 
+}
 
+#art12{
+    grid-area: art12;
+    border: solid 1px black; 
+}
 
-
-
-
-
+#art13{
+    grid-area: art13;
+    border: solid 1px black; 
+}
 
 
 
@@ -92,11 +119,7 @@ background-color:slategray;
 }
 
 
-header{
-    border: solid 1px black;
-    height: 5rem;
 
-}
 
 #big_picture_layer{
     border: solid 1px black;
