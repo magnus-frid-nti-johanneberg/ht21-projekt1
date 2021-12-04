@@ -10,8 +10,9 @@ body{
     grid-template-areas:
     "hd"
     "nv"
-    "mn";
-    grid-template-rows: 2fr 0.7fr 2fr;
+    "mn"
+    "ft";
+    grid-template-rows: 2fr 0.7fr 2fr 1fr;
   
 }
 
@@ -31,6 +32,12 @@ main{
     border: solid 1px black; 
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+
+}
+
+footer{
+  grid-area: ft;
+    border: solid 1px black; 
 
 }
 
