@@ -6,61 +6,65 @@ body{
 #wrapper{
     display: grid;
     min-width: 100vw;
-    min-height: 100vh;
     grid-template-areas:
     "hd"
-    "nv"
-    "mn"
-    "ft";
-    grid-template-rows: 2fr 0.7fr 2fr 1fr;
+    "nv" ;
+   
   
+}
+
+#main_container{
+display: grid;
+grid-template-areas: 
+"sec1" 
+"sec2";
+
 }
 
 #head{
     grid-area: hd;
     border: solid 1px black;
+    height: 85vh;
 }
 
 nav{
+    height:20vh;
     grid-area: nv;
     border: solid 1px black;
-
 }
 
-main{ 
-    grid-area: mn;
-    border: solid 1px black; 
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 
+main{ 
+    border: solid 1px black; 
 }
 
 footer{
-  grid-area: ft;
     border: solid 1px black; 
-
 }
 
 header{
     border: solid 1px black;
-    height: 5.5rem;
 
 }
 
 #sec1{
+ height: 45vh;
+   grid-area: sec1;
     display: grid;
     border: solid 1px black; 
-    height: 50%; 
-    grid-template-areas: 
+      grid-template-areas: 
     "art11 art12 art13" ;
    
 }
 
 #sec2{
+height: 45vh;
+  grid-area: sec2;
     display: grid; 
     border: solid 1px black; 
-    height: 50%;
 
+grid-template-areas: 
+"art21 art22 art23";
 }
 
 #art11{
@@ -78,6 +82,21 @@ header{
     border: solid 1px black; 
 }
 
+#art21{
+    grid-area: art21;
+    border: solid 1px black; 
+
+}
+
+#art22{
+    grid-area: art22;
+    border: solid 1px black; 
+}
+
+#art23{
+    grid-area: art23;
+    border: solid 1px black; 
+}
 
 
 
