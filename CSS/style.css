@@ -8,12 +8,13 @@ body{
     min-width: 100vw;
     grid-template-areas:
     "hd"
-    "nv" ;
-   
-  
+    "nv"
+    "mc"
+    "ft" ;
 }
 
 #main_container{
+    grid-area:mc;
 display: grid;
 grid-template-areas: 
 "sec1" 
@@ -39,6 +40,7 @@ main{
 }
 
 footer{
+    grid-area: ft;
     border: solid 1px black; 
 }
 
