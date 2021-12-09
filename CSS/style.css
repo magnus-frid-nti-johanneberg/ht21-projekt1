@@ -7,6 +7,7 @@ body{
     display: grid;
     min-width: 100vw;
     grid-template-areas:
+    "hdt"
     "hd"
     "nv"
     "mc"
@@ -24,6 +25,9 @@ grid-template-areas:
 
 #head{
     grid-area: hd;
+   display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 1px black;
     height: 85vh;
 }
@@ -35,28 +39,27 @@ nav{
 }
 
 
-main{ 
-    border: solid 1px black; 
-}
-
 footer{
     grid-area: ft;
-    border: solid 1px black; 
+    height: 20vh;
+   border: solid 1px black;
+    
 }
 
 header{
+    grid-area: hdt;
     border: solid 1px black;
-
+height: 5rem;
 }
 
 #sec1{
- height: 45vh;
+ height: 35vh;
    grid-area: sec1;
     display: grid;
     border: solid 1px black; 
       grid-template-areas: 
-    "art11 art12 art13" ;
-   
+    "art11 art11 art12" ;
+
 }
 
 #sec2{
@@ -79,10 +82,6 @@ grid-template-areas:
     border: solid 1px black; 
 }
 
-#art13{
-    grid-area: art13;
-    border: solid 1px black; 
-}
 
 #art21{
     grid-area: art21;
@@ -100,92 +99,10 @@ grid-template-areas:
     border: solid 1px black; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#wrapp{
-border: solid 1px black; 
-min-height: 100vh; 
-min-width: 100vh; 
-margin: auto; 
-
-}
-
-#page_container{
-min-height: 100vh; 
-min-width: 100vh; 
-background-color:slategray;
-}
-
-
-
-
-#big_picture_layer{
-    border: solid 1px black;
-    height: 5rem;
-}
-
-#sec1-1{
-    border: solid 1px black;
-    height: 5rem;
-}
-
-#sec1-2{
-    border: solid 1px black; 
-    height: 5rem; 
-}
-
-#sec2-1{
-    border: solid 1px black; 
-    height: 5rem;
-}
-
-#sec-img{
-    border: solid 1px black; 
-    height: 5rem;
-}
-
-#sec2-3{
-    border: solid 1px black; 
-    height: 5rem;
+#logga{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+justify-content: center;
     
 }
-
-footer{
-    border: solid 1px black;
-    height: 5rem;
-}
-
-
-
-
-
