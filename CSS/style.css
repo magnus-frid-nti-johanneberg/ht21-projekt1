@@ -1,9 +1,7 @@
 
 body{
     font-family: Arial,Helvetica,sans-serif; 
-    background-image: url(../img/natur.jpg);
-    background-size: cover;
-background-position: center;
+   
 }
 
 #wrapper{
@@ -23,6 +21,8 @@ display: grid;
 grid-template-areas: 
 "sec1" 
 "sec2";
+padding-right: 2em; 
+padding-left: 2em;
 
 }
 
@@ -36,9 +36,15 @@ grid-template-areas:
 }
 
 nav{
+    display: flex; 
     height:20vh;
     grid-area: nv;
     border: solid 1px black;
+    align-items: center;
+    justify-content: center;
+    
+
+   
 }
 
 
@@ -90,9 +96,11 @@ grid-template-areas:
 
 
 #art21{
+    display:flex;
     grid-area: art21;
     border: solid 1px black; 
-
+    align-items: center; 
+    justify-content: center;
 }
 
 #art22{
@@ -101,8 +109,11 @@ grid-template-areas:
 }
 
 #art23{
+    display: flex; 
     grid-area: art23;
     border: solid 1px black; 
+    align-items: center; 
+justify-content: center;
 }
 
 #logga{
@@ -113,16 +124,20 @@ justify-content: center;
 }
 
 #meny1{
+    display:flex; 
     border: solid 1px black; 
 width: 50%;
 height: 100%;
-
+align-items: center; 
+justify-content: center;
 }
 
 #boka1{
+    display:flex; 
     border: solid 1px black; 
     width: 50%;
     height: 100%;
-
+    align-items: center; 
+justify-content: center;
 }
 
