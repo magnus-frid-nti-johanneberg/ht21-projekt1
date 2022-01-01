@@ -1,7 +1,10 @@
 
 body{
     font-family: Arial,Helvetica,sans-serif; 
-   
+    background-color: rgb(25, 106, 115);
+    font-family: 'Unica One';
+    color: white;
+    font-size: 29px;
 }
 
 #wrapper{
@@ -31,33 +34,34 @@ padding-left: 2em;
     grid-area: hd;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
     height: 85vh;
+    background-image: url(../img/natur.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
 nav{
     display: flex; 
     height:20vh;
     grid-area: nv;
-    border: solid 1px black;
+    background-color: rgb(15, 76, 89);
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
     
-
-   
 }
 
 
 footer{
     grid-area: ft;
     height: 20vh;
-   border: solid 1px black;
+   background-color: rgb(1, 40, 64);
     
 }
 
 header{
     grid-area: hdt;
-    border: solid 1px black;
+    background-color: rgb(15, 76, 89);
 height: 5rem;
 }
 
@@ -105,7 +109,7 @@ grid-template-areas:
 
 #art22{
     grid-area: art22;
-    border: solid 1px black; 
+    background-color: rgb(91, 166, 145);
 }
 
 #art23{
@@ -117,9 +121,9 @@ justify-content: center;
 }
 
 #logga{
-    font-size: 28px;
+    font-size: 70px;
 justify-content: center;
- background-color: whitesmoke;
+ 
 
 }
 
