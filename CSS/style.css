@@ -60,10 +60,11 @@ footer{
 }
 
 header{
-    grid-area: hdt;
     background-color: rgb(15, 76, 89);
-height: 5rem;
+height: 5rem; 
+grid-area: hdt;
 }
+
 
 #sec1{
  height: 35vh;
