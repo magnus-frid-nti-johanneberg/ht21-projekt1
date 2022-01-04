@@ -26,6 +26,9 @@ grid-template-areas:
 "sec2";
 padding-right: 2em; 
 padding-left: 2em;
+background-image: url(../img/natur.jpg);
+background-position: center;
+background-size: cover; 
 
 }
 
@@ -35,7 +38,7 @@ padding-left: 2em;
     justify-content: center;
     align-items: center;
     height: 85vh;
-    background-image: url(../img/natur.jpg);
+    background-image: url(../img/art\ pancakes.jpg);
     background-size: cover;
     background-position: center ;
 }
@@ -89,6 +92,7 @@ height: 45vh;
     border: solid 1px black; 
 grid-template-areas: 
 "art21 art22 art23";
+
 }
 
 #art11{
@@ -116,7 +120,12 @@ grid-template-areas:
 
 #art22{
     grid-area: art22;
-    background-color: rgb(91, 166, 145);
+    background-image: url(../img/art2.2.jpg);
+    background-size: cover;
+    background-position: center ;
+display: flex; 
+align-items: center; 
+justify-content: center;
 }
 
 #art23{
