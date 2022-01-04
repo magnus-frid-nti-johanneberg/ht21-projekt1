@@ -60,11 +60,17 @@ footer{
 }
 
 header{
-    background-color: rgb(15, 76, 89);
-height: 5rem; 
 grid-area: hdt;
+background-color: rgb(15, 76, 89);
+height: 5rem; 
+display: flex; 
+justify-content: flex-start;
+align-items: center;
+padding-inline-start: 20px;
 }
 
+
+  
 
 #sec1{
  height: 35vh;
@@ -130,7 +136,7 @@ justify-content: center;
 
 #meny1{
     display:flex; 
-    border: solid 1px black; 
+border: solid 1px black; 
 width: 50%;
 height: 100%;
 align-items: center; 
@@ -139,10 +145,22 @@ justify-content: center;
 
 #boka1{
     display:flex; 
-    border: solid 1px black; 
-    width: 50%;
-    height: 100%;
-    align-items: center; 
-justify-content: center;
+border: solid 1px black; 
+width: 50%;
+height: 100%;
+align-items: center; 
+justify-content: center;  
+  
 }
 
+#boka01{
+    border: solid 1px white; 
+    font-size: 25px;
+    padding: 8px;
+}
+
+#meny01{
+    border: solid 1px white; 
+    font-size: 25px;
+    padding: 8px; 
+}
