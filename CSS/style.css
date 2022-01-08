@@ -100,14 +100,13 @@ grid-template-areas:
     grid-area: art11;
     justify-content: space-around;
     justify-content: center;
-    background-color: rgb(15, 76, 89);
+    border: solid 1px black; 
    
 }
 
 #art12{
     grid-area: art12;
     border: solid 1px black; 
-   padding: 2em;
 }
 
 
@@ -144,19 +143,9 @@ justify-content: center;
 
 }
 
-#open1{
-    font-size: 25px;
- font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
-#tider{
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
-
 #meny1{
     display:flex; 
+border: solid 1px black; 
 width: 50%;
 height: 100%;
 align-items: center; 
@@ -165,6 +154,7 @@ justify-content: center;
 
 #boka1{
     display:flex; 
+border: solid 1px black; 
 width: 50%;
 height: 100%;
 align-items: center; 
