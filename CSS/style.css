@@ -4,7 +4,7 @@ body{
     background-color: rgb(25, 106, 115);
     font-family: 'Unica One';
     color: white;
-    font-size: 29px;
+    font-size: 30px;
 }
 
 #wrapper{
@@ -105,16 +105,19 @@ grid-template-areas:
 
 #art12{
     grid-area: art12;
-    border: solid 1px black; 
+    padding: 2rem;
+    background-color: rgb(25,106,115);
 }
 
 
 #art21{
     display:flex;
     grid-area: art21;
-    border: solid 1px black; 
     align-items: center; 
     justify-content: center;
+    background-image: url(../img/art2.2.jpg);
+    background-position: center;
+background-size: cover; 
 }
 
 #art22{
@@ -133,13 +136,27 @@ justify-content: center;
     border: solid 1px black; 
     align-items: center; 
 justify-content: center;
+background-image: url(../img/jonathan-forage-1azAjl8FTnU-unsplash.jpg);
+background-position: center;
+background-size: cover; 
 }
 
 #logga{
     font-size: 70px;
 justify-content: center;
  
+}
 
+#open1{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+#tider{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 #meny1{
@@ -153,7 +170,6 @@ justify-content: center;
 
 #boka1{
     display:flex; 
-
 width: 50%;
 height: 100%;
 align-items: center; 
@@ -163,12 +179,12 @@ justify-content: center;
 
 #boka01{
     border: solid 1px white; 
-    font-size: 25px;
+    font-size: 32px;
     padding: 8px;
 }
 
 #meny01{
     border: solid 1px white; 
-    font-size: 25px;
+    font-size: 32px;
     padding: 8px; 
 }
