@@ -58,7 +58,7 @@ nav{
 footer{
     grid-area: ft;
     height: 20vh;
-   background-color: rgb(1, 40, 64);
+   background-color: rgb(2, 24, 48);
     
 }
 
@@ -79,7 +79,6 @@ padding-inline-start: 20px;
  height: 35vh;
    grid-area: sec1;
     display: grid;
-    border: solid 1px black; 
       grid-template-areas: 
     "art11 art11 art12" ;
 
@@ -89,7 +88,6 @@ padding-inline-start: 20px;
 height: 45vh;
   grid-area: sec2;
     display: grid; 
-    border: solid 1px black; 
 grid-template-areas: 
 "art21 art22 art23";
 
@@ -107,6 +105,7 @@ grid-template-areas:
     grid-area: art12;
     padding: 2rem;
     background-color: rgb(25,106,115);
+    border-left: solid rgb(1, 40, 64); 
 }
 
 
@@ -115,14 +114,18 @@ grid-template-areas:
     grid-area: art21;
     align-items: center; 
     justify-content: center;
-    background-image: url(../img/art2.2.jpg);
+    background-image: url(../img/art2.jpg);
     background-position: center;
-background-size: cover; 
+background-size: cover;
+font-size: 37px;
+text-decoration: underline white 3px;
 }
 
 #art22{
     grid-area: art22;
-    background-image: url(../img/art\ fire.jpg);
+    border-left: solid rgb(1, 40, 64); 
+    border-right: solid rgb(1, 40, 64);
+    background-image: url(../img/hinking\ food.jpg);
     background-size: cover;
     background-position: center ;
 display: flex; 
@@ -133,12 +136,15 @@ justify-content: center;
 #art23{
     display: flex; 
     grid-area: art23;
-    border: solid 1px black; 
     align-items: center; 
 justify-content: center;
-background-image: url(../img/jonathan-forage-1azAjl8FTnU-unsplash.jpg);
-background-position: center;
-background-size: cover; 
+background-image: url(../img/trangiakök2.jpg);
+background-size: cover;
+    background-position: center ;
+    font-size: 37px;
+    text-decoration: underline white 3px;
+    
+
 }
 
 #logga{
@@ -156,7 +162,8 @@ justify-content: center;
 #tider{
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
+    letter-spacing: normal;
+    line-height: 1.3em;
 }
 
 #meny1{
