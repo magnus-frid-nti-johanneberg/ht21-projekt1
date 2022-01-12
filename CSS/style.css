@@ -1,10 +1,14 @@
 
 body{
-    font-family: Arial,Helvetica,sans-serif; 
     background-color: rgb(25, 106, 115);
     font-family: 'Unica One';
     color: white;
     font-size: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 #wrapper{
@@ -16,6 +20,27 @@ body{
     "nv"
     "mc"
     "ft" ;
+}
+
+#wrapper2{
+    min-width: 100vw;
+    grid-template-areas: 
+    "hdt"
+    "bf"
+    "ft"
+    ;
+}
+
+#b-frame{
+    display: flex;
+    grid-area: bf; 
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/b-background.jpg);
+    background-position: center;
+background-size: cover; 
+
 }
 
 #main_container{
@@ -72,8 +97,10 @@ align-items: center;
 padding-inline-start: 20px;
 }
 
-
-  
+#active{
+    color: white;
+    text-decoration: none;
+}
 
 #sec1{
  height: 35vh;
@@ -167,8 +194,7 @@ justify-content: center;
 }
 
 #meny1{
-    display:flex; 
- 
+display:flex; 
 width: 50%;
 height: 100%;
 align-items: center; 
@@ -176,7 +202,7 @@ justify-content: center;
 }
 
 #boka1{
-    display:flex; 
+display:flex; 
 width: 50%;
 height: 100%;
 align-items: center; 
@@ -188,6 +214,8 @@ justify-content: center;
     border: solid 1px white; 
     font-size: 32px;
     padding: 8px;
+    color: white;
+    text-decoration: none;
 }
 
 #meny01{
@@ -195,3 +223,43 @@ justify-content: center;
     font-size: 32px;
     padding: 8px; 
 }
+
+#boking-field{
+display: flex;
+padding: 1em;
+border: solid 1px white;
+width: 55vw;
+height: 52.5vh;
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+justify-content:space-evenly;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+#b-welcome{
+    grid-area: bfw;
+    font-size: 60px;
+}
+
+#b-description{
+    grid-area: bfd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+    text-align: center;
+  
+}
+
+#boka02{
+    grid-area: bfb;
+    border: solid 1px white;
+    padding: 10px;
+    font-size: 35px;
+}
+
